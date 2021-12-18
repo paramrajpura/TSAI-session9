@@ -30,6 +30,6 @@ jobs:
           # Path to notebook with extension that should be executed
           notebook: test_modules.ipynb # optional, default is
           # Path to parameters file with extension, contents should be json
-          params: None # optional, default is {}
+          params: params.json # optional, default is {}
           # If True, will hide inputs in notebook
           isReport: True # optional
